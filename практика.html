@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DeveloperStart</title>
+	<link rel="stylesheet" type="text/css" href="css/my project.css">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	 <meta charset="utf-8">
+</head>
+<body>
+	<header>
+		<div class="logo" onclick="slowScroll('#top')">
+			<span>DeveloperStart</span>
+		</div>
+		<div class="about">
+			<a href="#" title="Возможности" onclick="slowScroll('#main')">Возможности</a>
+			<a href="#" onclick="slowScroll('#overiew')" title="Преимущества">Преимущества</a>
+			<a href="#" onclick="slowScroll('#contacts')" title="Контакты">Контакты</a>
+			<a href="#" onclick="slowScroll('#faq')" title="Ответы на вопросы">FAQ</a>
+		</div>
+	</header>
+
+	<div class="top">
+		<h1>Программирование</h1>
+		<h3>как способ жизни</h3>
+	</div>
+
+	<div class="main">
+		<div class="intro">
+			<h2>Наши услуги помогут вам!</h2>
+			<span>Большой выбор всего, что может вам пригодиться</span>
+		</div>
+		<div class="text">
+			<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora quaerat dicta doloremque illum, cum dolor, praesentium quibusdam blanditiis, ut vero cumque, nulla suscipit! Optio tempore atque doloribus ab consequatur veritatis excepturi id perferendis nam, harum, corrupti officia, at repellat quisquam laudantium. Assumenda facere aspernatur reprehenderit perspiciatis, quia reiciendis sint nihil?.</span>
+		</div>
+	</div>
+
+	<div class="overview">
+		<h2>Преимущества</h2>
+		<h4>С нами все проще</h4>
+
+		<div class="img">
+			<img src="https://itproger.com/img/courses/1532975967.jpg">
+			<span>Изучене языка Ruby для начинающих</span>
+		</div>
+		<div class="img">
+			<img src="https://itproger.com/img/courses/1530341233.jpg">
+			<span>Уроки Photoshop для начинающих</span>
+		</div>
+		<div class="img">
+			<img src="https://avatars.mds.yandex.net/get-pdb/1890546/3c01a04a-22ee-49f9-ac1e-b02f93a2fdf5/s1200?webp=false">
+			<span>Уроки Swift для начинающих</span>
+		</div>
+		<div class="img">
+			<img src="https://itproger.com/img/courses/1518607198.jpg">
+			<span>Уроки создания игр на Python с примерами</span>
+		</div>
+	</div>
+
+	<div id="contacts">
+	<center><h5>Обратная связь</h5></center>
+		<form id="form_input">
+			<label for="name">Имя <span>*</span></label><br>
+			<input type="text" placeholder="Введите имя" name="name" id="name"><br>
+			<label for="email">Ваша почта <span>*</span></label><br>
+			<input type="email" placeholder="Введите email" name="email" id="email"><br>
+			<label for="message">Сообщение <span>*</span></label><br>
+			<textarea placeholder="Введите ваше сообщение" name="message" id="message"></textarea><br>
+			<div id="mess_send" class="btn">Отправить</div>
+		</form>
+	</div>
+
+	<div class="FAQ">
+		<div>
+      <span class="title">Оплата</span><br>
+      <span class="heading">Как будет проходит оплата?</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+      <span class="heading">Как будет проходит оплата?</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+      <span class="heading">Как будет проходит оплата?</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+    </div>
+    <div>
+      <span class="title">Информация</span><br>
+      <span class="heading">Что входит в услуги сервиса</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+      <span class="heading">Что входит в услуги сервиса</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+      <span class="heading">Что входит в услуги сервиса</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+    </div>
+    <div>
+      <span class="title">Гарантии</span><br>
+      <span class="heading">Какие гарантии есть</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+      <span class="heading">Какие гарантии есть</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+      <span class="heading">Какие гарантии есть</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+    </div>
+  </div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script>
+		function slowScroll(id) {
+			$('html,body').animate({
+				scrollTop: $(id).offset().top
+			}, 500);
+		}
+
+		$(document).on("scroll", function () {
+			if($(window).scrollTop() === 0)
+				$("header").removeClass("fixed");
+			else
+				$("header").attr("class","fixed");
+		});
+	</script>
+</body>
+</html>
