@@ -884,7 +884,8 @@ if(isMobile.iOS()){
 
 $('.menu-header__icon').click(function(event) {
 	$(this).toggleClass('activeblock');
-	$('.menu-header__menu').toggleClass('activeblock');
+	$('.header__menu').toggleClass('activeblock');
+	$('.menu-header__burger').toggleClass('activeblock');
 	if($(this).hasClass('activeblock')){
 		$('body').data('scroll',$(window).scrollTop());
 	}
@@ -992,22 +993,6 @@ $('.goto').click(function() {
 		$('body').removeClass('lock');
 	}
 	return false;
-});
-
-function ibg(){
-	$.each($('.ibg'), function(index, val) {
-		if($(this).find('img').length>0){
-			$(this).css('background-image','url("'+$(this).find('img').attr('src')+'")');
-		}
-	});
-}
-ibg();
-	
-//Клик вне области
-$(document).on('click touchstart',function(e) {
-	if (!$(e.target).is(".select *")) {
-		$('.select').removeClass('active');
-	};
 });
 
 //UP
@@ -1151,15 +1136,19 @@ function tip(){
 $('.filter__item').click(function(event){
 	var i =$(this).data('filter');
 
-	if(i==1) {
+	if(i==0) {
 		$('.portfolio__column').show();
 	}else {
 		$('.portfolio__column').hide();
 		$('.portfolio__column.f_'+ i).show();
 	}
-	$('.filter__item').removeClass('active');
-	$(this).addClass('active');
+	$('.filter__item').removeClass('actives');
+	$(this).addClass('actives');
 
 	return false;
 });
+
+$('.portfolio__column').hide();
+	$('.portfolio__column_1').show();
+
 });
