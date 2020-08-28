@@ -1151,4 +1151,30 @@ $('.filter__item').click(function(event){
 $('.portfolio__column').hide();
 	$('.portfolio__column_1').show();
 
+
+
+$('.list__item').click(function(event){
+	var i =$(this).data('filter');
+
+	if(i==0) {
+		$('.portfolioblock__column').show();
+	}else {
+		$('.portfolioblock__column').hide();
+		$('.portfolioblock__column.f_'+ i).show();
+	}
+	$('.list__item').removeClass('activs');
+	$(this).addClass('activs');
+
+	return false;
+});
+
+$('.filters__btn').click(function(event) {
+	$(this).toggleClass('activs');
+	$('.filters__list').toggleClass('activs');
+});
+
+
+
+
+
 });
