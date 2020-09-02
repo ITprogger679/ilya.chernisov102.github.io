@@ -49,7 +49,7 @@
 						<nav class="menu-header__menu">
 							<ul class="menu-header__list">
 								<li><a href="#callback" class="menu-header__link menu-header__link_yel block__link pl goto"><span>Sign up</span></a></li>
-								<li><a href="#" class="menu-header__link menu-header__link_yel block__link pl goto"><span>Sign in</span></a></li>
+								<li><a href="#message" class="menu-header__link menu-header__link_yel block__link pl goto"><span>Sign in</span></a></li>
 								<li><a href="" class="menu-header__link goto"><span>send message</span></a></li>
 							</ul>
 						</nav>
@@ -344,7 +344,7 @@
 				<li class=""><a href="" class="links-footer__item">linkedin</a></li>
 				<li class=""><a href="" class="links-footer__item">twitter</a></li>
 				<li class=""><a href="" class="links-footer__item">google+</a></li>
-				<li class=""><a href="" class="links-footer__item pl">sign in</a></li>
+				<li class=""><a href="#message" class="links-footer__item pl">sign in</a></li>
 				<li class=""><a href="#callback" class="links-footer__item pl">sign up</a></li>
 				<li class=""><a href="#search__btn" class="links-footer__item goto">search</a></li>
 			</ul>
@@ -369,7 +369,7 @@
 				<form action="#" class="popup-form form">
 					<label class="popup-form__info">or enter following information</label>
 					<div class="form-input">
-						<input autocomplete="off" type="text" name="form[]" data-value="Name" class="input" />
+						<input autocomplete="off" type="text" name="form[]" data-value="Name" class="input req" />
 					</div>
 					<div class="form-input">
 						<input autocomplete="off" type="text" name="form[]" data-value="Email" class="input req email" />
@@ -385,16 +385,26 @@
 </div>
 
 
-
 <div class="popup popup-message ms_1">
 	<div class="popup-table table">
 		<div class="cell">
 			<div class="popup-content">
 				<div class="popup-close"></div>
-				<div class="popup__title"></div>
-				<div class="popup__txt">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti quae nobis neque nam quidem. Dolorum repellendus, voluptatibus animi debitis! Similique dolorum facilis iusto atque laborum minima omnis ipsam rerum ab!
+				<div class="popup__title">sign in</div>
+				<div class="popup__txt">sign in using</div>
+				<div class="popup__social">
+					<a href="" class=" popup__link">facebook</a>
+					<a href="" class="popup__link popup__link_red">google+</a>
+					<a href="" class="popup__link popup__link_blue">twitter</a>
 				</div>
+				<form action="#" class="popup-form form">
+					<label class="popup-form__info">or your account</label>
+					<div class="form-input">
+						<input autocomplete="off" type="text" name="form[]" data-value="Name or Email" class="input req" />
+						<input autocomplete="off" type="text" name="form[]" data-value="Password" class="input input_pass input_pass_signin req" />
+					</div>
+					<button type="submit" class="form__btn btn fw">sign in</button>
+				</form>
 			</div>
 		</div>
 	</div>

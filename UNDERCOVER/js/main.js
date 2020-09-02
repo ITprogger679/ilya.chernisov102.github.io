@@ -1176,5 +1176,4 @@ $('.filters__btn').click(function(event) {
 
 
 
-
 });

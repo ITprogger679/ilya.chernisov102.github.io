@@ -1258,7 +1258,6 @@ footer {
 
 .title {
   color: #636363;
-  font-family: Ubuntu;
   font-size: 60px;
   font-weight: 300;
   text-transform: uppercase;
@@ -1310,7 +1309,6 @@ footer {
 .down-mainblock__txt {
   display: block;
   color: #454545;
-  font-family: Ubuntu;
   font-size: 20px;
   text-transform: uppercase; }
   @media (max-width: 767.98px) {
@@ -1414,7 +1412,6 @@ footer {
 
 .filter__item {
   color: #b4b4b4;
-  font-family: Ubuntu;
   font-size: 30px;
   font-weight: 300;
   text-transform: uppercase;
@@ -1566,7 +1563,6 @@ footer {
 
 .item-portfolio__text {
   color: #b4b4b4;
-  font-family: Ubuntu;
   font-size: 20px;
   font-weight: 300;
   max-width: 486px; }
@@ -1722,7 +1718,6 @@ footer {
 .filters__btn {
   position: relative;
   color: #b4b4b4;
-  font-family: Ubuntu;
   font-size: 30px;
   font-weight: 300;
   background-color: inherit;
@@ -1801,7 +1796,6 @@ footer {
 
 .list__item {
   color: #b4b4b4;
-  font-family: Ubuntu;
   font-size: 30px;
   font-weight: 300;
   margin: 0 0 25px 0;
@@ -1847,7 +1841,6 @@ footer {
   .txt-portfolioblock__title {
     position: relative;
     color: #303030;
-    font-family: Ubuntu;
     font-size: 30px;
     font-weight: 400;
     text-transform: uppercase;
@@ -1879,7 +1872,6 @@ footer {
           width: 100%; } }
   .txt-portfolioblock__text {
     color: #303030;
-    font-family: Ubuntu;
     font-size: 15px;
     font-weight: 500;
     line-height: 20.02px;
@@ -1908,7 +1900,6 @@ footer {
 
 .btnnav__btn {
   color: #b4b4b4;
-  font-family: Ubuntu;
   font-size: 15px;
   font-weight: 500;
   line-height: 20px;
@@ -2060,7 +2051,6 @@ footer {
 
 .feedback-contacts__text {
   color: #b4b4b4;
-  font-family: Ubuntu;
   font-size: 30px;
   font-weight: 300;
   line-height: 32px; }
@@ -2074,7 +2064,6 @@ footer {
 
 .feedback-contacts__name {
   text-align: right;
-  font-family: Ubuntu;
   font-size: 30px;
   font-weight: 300;
   color: #b69b67;
@@ -2406,6 +2395,21 @@ input[type=text], input[type=email], input[type=tel], textarea {
     @media (max-width: 479.98px) {
       .input_pass {
         width: 280px; } }
+    .input_pass_signin {
+      width: 746px; }
+      @media (max-width: 992.98px) {
+        .input_pass_signin {
+          width: 650px; } }
+      @media (max-width: 767.98px) {
+        .input_pass_signin {
+          width: 400px;
+          font-size: 20px;
+          height: 60px; } }
+      @media (max-width: 479.98px) {
+        .input_pass_signin {
+          width: 280px;
+          font-size: 18px;
+          height: 55px; } }
   .input_cnts {
     width: 487px; }
     @media (max-width: 1512px) {
